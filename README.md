@@ -16,9 +16,9 @@ MIT
 ### Examples of usage:
  Please generate your service account and add it to prismasase_settings.py
  
- - ./Tunnel-Down-Site.py -S Home-Office -I 130.41.43.64 -E False
+ - ./Tunnel-Site.py -S Home-Office -I 130.41.43.64 -E False
  - This will bring down a tunnel with peer IP of 130.41.43.64 for a specific site
- - ./Tunnel-Down-Retail.py -I 130.41.43.63 -E True
+ - ./Tunnel-Retail.py -I 130.41.43.63 -E True
  - This will bring up a tunnel with peer IP of 130.41.43.64 for a specific domain 
  
 ### Caveats and known issues:
